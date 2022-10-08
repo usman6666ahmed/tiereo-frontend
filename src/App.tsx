@@ -1,7 +1,9 @@
+import {PublicRoutes} from "./routes";
+
 function App() {
   return (
     <div>
-      Hello G
+      <PublicRoutes />
     </div>
   );
 }
