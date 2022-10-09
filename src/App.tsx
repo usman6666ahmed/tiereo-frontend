@@ -3,9 +3,11 @@ import {PublicRoutes} from "./routes";
 
 function App() {
   return (
-    <div>
+    <div className="h-screen">
       <Navbar />
-      <PublicRoutes />
+      <div className="w-2/3 mx-auto">
+        <PublicRoutes />
+      </div>
     </div>
   );
 }
